@@ -12,7 +12,7 @@ public class Inventario {
         FileWriter flwriter;
         flwriter = null;
         try {
-            String ruta = "C:\\Users\\FernandoPueb_5dvr3\\Documents\\migrate_projects_to_android\\gestor_de_dinero\\inventario.txt";
+            String ruta = "C:\\Users\\FernandoPueb_5dvr3\\Documents\\migrate_projects_to_android\\inventario_productos\\inventario.txt";
             File file = new File(ruta);
             if (!file.exists()){
                 file.createNewFile();
@@ -44,7 +44,7 @@ public class Inventario {
     }
 
     public static ArrayList leerInventario() {
-        String ruta = "C:\\Users\\FernandoPueb_5dvr3\\Documents\\migrate_projects_to_android\\gestor_de_dinero\\inventario.txt";
+        String ruta = "C:\\Users\\FernandoPueb_5dvr3\\Documents\\migrate_projects_to_android\\inventario_productos\\inventario.txt";
         File file = new File(ruta);
         ArrayList listaProductos = new ArrayList<>();
         Scanner scanner;
@@ -78,7 +78,7 @@ public class Inventario {
     public static void actualizarInventario(ArrayList lista) {
         FileWriter flwriter = null;
         try {//además de la ruta del archivo recibe un parámetro de tipo boolean, que le indican que se va añadir más registros
-            flwriter = new FileWriter("C:\\Users\\FernandoPueb_5dvr3\\Documents\\migrate_projects_to_android\\gestor_de_dinero\\inventario.txt", true);
+            flwriter = new FileWriter("C:\\Users\\FernandoPueb_5dvr3\\Documents\\migrate_projects_to_android\\inventario_productos\\inventario.txt", true);
             BufferedWriter bfwriter = new BufferedWriter(flwriter);
             for (Producto producto : (ArrayList<Producto>) lista) {
                 //escribe los datos en el archivo
