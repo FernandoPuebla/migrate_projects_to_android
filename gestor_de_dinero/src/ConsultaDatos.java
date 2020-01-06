@@ -1,21 +1,21 @@
 import java.awt.*;
 
 public class ConsultaDatos {
-    IngresoDatos datos = new IngresoDatos();
+    IngresoDatos ingresoD = new IngresoDatos();
     MenuPrincipal menu = new MenuPrincipal();
-    private int saldo, abono, gasto;
+    private int saldoAct, abonoAct, gastoAct;
 
     public void consultarGeneral() {
-        /*saldo = datos.getSaldo();
-        abono = datos.getAbono();
-        gasto = datos.getGasto();*/
-        System.out.println("Sus movimientos son: \nSaldo: $" + datos.getSaldo()
-                + "\nAhorro: $" + datos.getAbono() + "\nGasto: $" + datos.getGasto());
-        menu.mostrarMenu();
+        saldoAct = ingresoD.getSaldo();
+
+        System.out.println("Sus movimientos son: \nSaldo: $" + saldoAct);
+//        System.out.println("Sus movimientos son: \nSaldo: $" + datos.getSaldo()
+//                + "\nAhorro: $" + datos.getAbono() + "\nGasto: $" + datos.getGasto());
+        ingresoD.escogerOpcion();
     }
 
     public void consultarSaldo() {
-        System.out.println("Su saldo actual es de: $" );
+        System.out.println("Su saldo actual es de: $");
     }
 
     public void consultarAhorro() {
@@ -26,27 +26,28 @@ public class ConsultaDatos {
         System.out.println("Su saldo actual es de: $");
     }
 
-    public int getSaldo() {
-        return saldo;
+    public int getSaldoAct() {
+        return saldoAct;
     }
 
-    public void setSaldo(int saldo) {
-        this.saldo = saldo;
+    public void setSaldoAct(int saldoAct) {
+        this.saldoAct = saldoAct;
     }
 
-    public int getAbono() {
-        return abono;
+    public int getAbonoAct() {
+        return abonoAct;
     }
 
-    public void setAbono(int abono) {
-        this.abono = abono;
+    public void setAbonoAct(int abonoAct) {
+        this.abonoAct = abonoAct;
     }
 
-    public int getGasto() {
-        return gasto;
+    public int getGastoAct() {
+        return gastoAct;
     }
 
-    public void setGasto(int gasto) {
-        this.gasto = gasto;
+    public void setGastoAct(int gastoAct) {
+        this.gastoAct = gastoAct;
     }
 }
+
