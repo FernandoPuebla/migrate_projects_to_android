@@ -2,15 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a592f50-f3de-4d58-a5b9-d7274919223e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArchivoGenerado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba_archivos/src/Bucle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba_archivos/src/CrearArchivoBucle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba_archivos/src/PruebaBucle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archivo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/archivo.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/gestor_de_dinero/ConsultaDatos.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/gestor_de_dinero/ConsultaDatos.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/gestor_de_dinero/IngresoDatos.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/gestor_de_dinero/IngresoDatos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/gestor_de_dinero/MenuPrincipal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/gestor_de_dinero/MenuPrincipal.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ConsultaDatos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConsultaDatos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/IngresoDatos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IngresoDatos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MenuPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MenuPrincipal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inventario_productos/inventario.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../inventario_productos/inventario.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inventario_productos/out/production/inventario_productos/Inventario.class" beforeDir="false" afterPath="$PROJECT_DIR$/../inventario_productos/out/production/inventario_productos/Inventario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inventario_productos/src/Inventario.java" beforeDir="false" afterPath="$PROJECT_DIR$/../inventario_productos/src/Inventario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prueba_archivos/out/production/prueba_archivos/META-INF/prueba_archivos.kotlin_module" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +55,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ArchivoGenerado">
+  <component name="RunManager" selected="Application.Prueba">
     <configuration name="ArchivoGenerado" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArchivoGenerado" />
       <module name="gestor_de_dinero" />
@@ -67,8 +72,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ArchivoGenerado" />
         <item itemvalue="Application.Prueba" />
+        <item itemvalue="Application.ArchivoGenerado" />
       </list>
     </recent_temporary>
   </component>
@@ -90,7 +95,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

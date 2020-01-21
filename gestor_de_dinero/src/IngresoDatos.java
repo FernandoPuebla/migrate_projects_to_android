@@ -36,7 +36,7 @@ public class IngresoDatos {
         }// fin switch
     } // fin funcion escogerOpcion
 
-    public void ingresarSaldoInicial() {
+    public int ingresarSaldoInicial() {
         int saldoInic;
         Scanner in = new Scanner(System.in);
         System.out.print("Ingrese una cantidad mayor a 0: $");
@@ -44,27 +44,28 @@ public class IngresoDatos {
         System.out.println("Tiene un saldo inicial de: $" + saldoInic);
         saldo = saldoInic;
         System.out.println("Tiene un saldo de: $" + saldo);
-
+        return saldo;
     } // fin ingresarSaldoInicial
 
-    public void ingresarGasto() {
+    public int ingresarGasto() {
         Scanner in = new Scanner(System.in);
         int gasto;
         System.out.print("Ingrese la cantidad que gastó $");
         gasto = in.nextInt();
-        saldo = saldo - gasto;
-        System.out.println("Usted gastó $" + gasto + ", su saldo actual es de $" + saldo);
-
+        setSaldo(saldo - gasto) ;
+        System.out.println("Usted gastó $" + gasto + ", su saldo actual es de $" + getSaldo());
+        return getSaldo();
         //        consulta.setGasto(gasto);
     }// fin ingresarGasto
 
-    public void ingresarAhorro() {
+    public int ingresarAhorro() {
         Scanner in = new Scanner(System.in);
         int abono;
         System.out.println("Ingrese la cantidad que va a guardar");
         abono = in.nextInt();
         saldo = saldo + abono;
         System.out.println("Usted abonó $" + abono + ", su saldo actual es de $" + saldo);
+        return saldo;
 //        consulta.setAbono(abono); consulta.setSaldo(saldo);
     }// fin ingresarAhorro
 

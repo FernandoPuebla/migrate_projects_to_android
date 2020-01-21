@@ -1,5 +1,3 @@
-import java.awt.*;
-
 public class ConsultaDatos {
     IngresoDatos ingresoD = new IngresoDatos();
     MenuPrincipal menu = new MenuPrincipal();
